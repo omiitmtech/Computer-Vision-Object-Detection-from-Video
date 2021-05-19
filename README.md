@@ -46,6 +46,8 @@ https://drive.google.com/file/d/1GycFt_R71g8bQkvOHL9AX2yQVnFDiQ_w/view?usp=shari
 
 
 $ python3 objectDetectionYoloV3.py 'path/input_video_file' 'Object name to be detected'
+
+_object name can be like person, car, cycle etc all 80 different objects mentioned in coconames file._
 Examples:
 1.  python3 objectDetectionYoloV3.py 'inputFiles/TopDown_AerialVideo_1080.mp4' 'person'
 2.  python3 objectDetectionYoloV3.py 'inputFiles/TopDown_AerialVideo_1080.mp4' 'car'
