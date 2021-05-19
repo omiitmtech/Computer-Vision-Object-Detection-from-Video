@@ -5,7 +5,7 @@ An object detection method using openCV YOLOV3 from a video.
 Please run a computer vision and/or machine learning (CNN/DNN) based detector on this video, which should be able to detect humans present, draw a red bounding box
 around them, and mention the probability of detection. Save the output video to disk.
 
-# Aprorach & Methodology 
+# YOLOV3
 **You Only Look Once** or more popularly known as YOLO is one of the fastest real-time object detection algorithm (45 frames per seconds) as compared to R-CNN family (R-CNN, Fast R-CNN, Faster R-CNN, etc.)
 Instead of selecting some regions, YOLO applies a neural network to the entire image to predict bounding boxes and their probabilities.
 We load the YoloV3 weights and configuration file with the help of dnn module of OpenCV. coco.names file contains the names of the different objects that our model has been trained to identify. We deteect the object and draw a rectangle and print the confidence score along with the class name.
