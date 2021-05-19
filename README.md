@@ -1,5 +1,11 @@
 # ML_Test_NewSpaceResearch
 An object detection method using openCV YOLOV3 from a video.
+project data: <br />
+https://drive.google.com/drive/folders/1LDPuxdMGsV_9JQhlptvE95iG09qu-rth?usp=sharing
+
+output video: <br />
+https://drive.google.com/file/d/1GycFt_R71g8bQkvOHL9AX2yQVnFDiQ_w/view?usp=sharing
+
 
 # Problem Statement
 Please run a computer vision and/or machine learning (CNN/DNN) based detector on this video, which should be able to detect humans present, draw a red bounding box
@@ -33,7 +39,11 @@ It is very slow but very much accurate, it processes 45 frames per second but if
 # How to Run?
 
 Due to size constraint of 25MB the weights file is not copied to the folder 'configFiles/', therefore before running the below command download the weights file from the location (https://pjreddie.com/media/files/yolov3.weights) and place it inside the folder 'configFile' (or) you can download the whole scripts anf file from the following gdrive:
+project data: <br />
 https://drive.google.com/drive/folders/1LDPuxdMGsV_9JQhlptvE95iG09qu-rth?usp=sharing
+
+output video: <br />
+https://drive.google.com/file/d/1GycFt_R71g8bQkvOHL9AX2yQVnFDiQ_w/view?usp=sharing
 
 
 $ python3 objectDetectionYoloV3.py 'path/input_video_file' 'Object name to be detected'
