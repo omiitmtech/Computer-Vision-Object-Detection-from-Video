@@ -8,8 +8,7 @@ https://drive.google.com/file/d/1GycFt_R71g8bQkvOHL9AX2yQVnFDiQ_w/view?usp=shari
 
 
 # Problem Statement
-Please run a computer vision and/or machine learning (CNN/DNN) based detector on this video, which should be able to detect humans present, draw a red bounding box
-around them, and mention the probability of detection. Save the output video to disk.
+To implement a computer vision and/or machine learning (CNN/DNN) based detector on this video, which should be able to detect humans present, draw a red bounding box around them, and mention the probability of detection. Save the output video to disk.
 
 # YOLOV3
 **You Only Look Once** or more popularly known as YOLO is one of the fastest real-time object detection algorithm (45 frames per seconds) as compared to R-CNN family (R-CNN, Fast R-CNN, Faster R-CNN, etc.)
