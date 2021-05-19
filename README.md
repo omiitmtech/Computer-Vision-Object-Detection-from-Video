@@ -10,6 +10,8 @@ around them, and mention the probability of detection. Save the output video to 
 Instead of selecting some regions, YOLO applies a neural network to the entire image to predict bounding boxes and their probabilities.
 We load the YoloV3 weights and configuration file with the help of dnn module of OpenCV. coco.names file contains the names of the different objects that our model has been trained to identify. We deteect the object and draw a rectangle and print the confidence score along with the class name.
 
+**Pros & Cons :**
+It is very slow but very much accurate, it processes 45 frames per second but if we want speed then we can use YoloV3-tiny, it is comparetiverly faster but lesser accurate and it processes 220 frames per second.
 
 # Dependencies
 1. python 3.7.10
@@ -37,7 +39,7 @@ https://drive.google.com/drive/folders/1LDPuxdMGsV_9JQhlptvE95iG09qu-rth?usp=sha
 $ python3 objectDetectionYoloV3.py 'path/input_video_file' 'Object name to be detected'
 Examples:
 1.  python3 objectDetectionYoloV3.py 'inputFiles/TopDown_AerialVideo_1080.mp4' 'person'
-2.   python3 objectDetectionYoloV3.py 'inputFiles/TopDown_AerialVideo_1080.mp4' 'car'
+2.  python3 objectDetectionYoloV3.py 'inputFiles/TopDown_AerialVideo_1080.mp4' 'car'
 
 **Note:-**
 1. You can press 'q' key from your keyboard to interrupt the current process anytime.
