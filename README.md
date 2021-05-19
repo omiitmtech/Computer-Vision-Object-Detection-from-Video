@@ -25,7 +25,7 @@ It is very slow but very much accurate, it processes 45 frames per second but if
 3. openCV (https://pypi.org/project/opencv-python/)
 4. Save coconames file inside the folder 'configFiles/' from the link (https://github.com/pjreddie/darknet/blob/master/data/coco.names)
 5. Save weights and config yolov3 files from the link (https://pjreddie.com/darknet/yolo/)
-  a. config file (https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
+  a. config file (https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)  <br />
   b. weight files(https://pjreddie.com/media/files/yolov3.weights)
 
 
