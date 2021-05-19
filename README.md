@@ -39,3 +39,6 @@ Examples:
 1.  python3 objectDetectionYoloV3.py 'inputFiles/TopDown_AerialVideo_1080.mp4' 'person'
 2.   python3 objectDetectionYoloV3.py 'inputFiles/TopDown_AerialVideo_1080.mp4' 'car'
 
+**Note:- **
+1. You can press 'q' key from your keyboard to interrupt the current process anytime.
+2. The processed video will be saved in the 'outputFiles/' folder.
