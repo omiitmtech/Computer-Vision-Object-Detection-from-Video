@@ -1,4 +1,4 @@
-# ML_Test_NewSpaceResearch
+# Object Detection using Computer Vision
 An object detection method using openCV YOLOV3 from a video. <br />
 project data: <br />
 https://drive.google.com/drive/folders/1LDPuxdMGsV_9JQhlptvE95iG09qu-rth?usp=sharing
